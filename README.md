@@ -10,6 +10,8 @@ python3 GOF.py -speed 30 -board brain
     <img width=50% src="https://github.com/TGustavS/GameOfLife/blob/main/Brain.gif">
 </p>
 
+
+
 To get all informations what you can customize type the following in the command line:
 
 ```bash
@@ -44,10 +46,15 @@ My algorithm:
     - if it is dead don't do anything
   - once done go through the board again and change all cells with value 30, 21 or 31 to 1 and the rest to 0.
 
+Example:
 ```bash
-
 [[0,0,0,0],                 [[10,20,20,10],             [[0,0,0,0],
  [0,1,1,0],       -->        [10,21,31,30],     -->      [0,1,1,1],
  [0,0,1,1],                  [20,50,61,41],              [0,0,0,0],
  [0,1,1,1]]                  [10,21,41,31]]              [0,1,0,1]]
- 
+``` 
+The advantages of this algorithm are, that one only checks the neighbors of alive cells and that one does not have to make a copy of the board. Everything happens on the same board. 
+
+ <p align="center">
+   <img width=50% src="https://github.com/TGustavS/GameOfLife/blob/main/random.gif">
+</p>
