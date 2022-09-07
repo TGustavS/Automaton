@@ -6,16 +6,18 @@ As a practice I tried to find a fast algorithm to compute the new generations. I
 python3 GOF.py -speed 30 -board brain
 ```
 
-![](https://github.com/TGustavS/GameOfLife/brain.gif)
+<p align="center">
+    <img width=50% src="https://github.com/TGustavS/GameOfLife/blob/main/Brain.gif">
+</p>
 
-To get all informations what you can customize type the following:
+To get all informations what you can customize type the following in the command line:
 
 ```bash
 python3 GOT.py --help
 ```
 
 # Seeds
-I took the seeds from https://conwaylife.com/wiki. Check the website if you want to know more about this Game.
+I took the seeds from https://conwaylife.com/wiki. Check the website if you want to know more about this wonderful game. <br>
 Seed Names:
   - glider
   - spaceship
